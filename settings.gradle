@@ -18,4 +18,5 @@
  */
 
 include ':app', ':common'
-project(':common').projectDir = new File('libcommon/common')
+project(':common').projectDir = new File(rootDir, 'libcommon/common/')
+include ':common'
